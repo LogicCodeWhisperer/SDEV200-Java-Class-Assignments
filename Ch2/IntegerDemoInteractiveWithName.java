@@ -1,4 +1,4 @@
-// Program: DataDemoInteractive.java
+// Program: IntegerDemoInteractiveWithName.java
 // Author: Chase Stephenson
 // Date Written 8/26/2026
 

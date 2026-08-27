@@ -1,4 +1,4 @@
-// Program: DataDemo.java
+// Program: ArithmeticDemo2.java
 // Author: Chase Stephenson
 // Date Written 8/26/2026
 
