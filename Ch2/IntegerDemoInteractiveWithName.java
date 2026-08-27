@@ -12,6 +12,7 @@ public class IntegerDemoInteractiveWithName
         byte aByte;
         short aShort;
         long aLong;
+        String name;
         Scanner input = new Scanner(System.in);
 
         //Input Statements
@@ -24,6 +25,12 @@ public class IntegerDemoInteractiveWithName
         System.out.print("Please enter a Long integer >> ");
         aLong = input.nextLong();
 
+        //String name input statement
+        input.nextLine();
+        System.out.print("Please enter your name >> ");
+        name = input.nextLine();
+        System.out.println("Thank you, " + name);
+        
         //Output Statements
         System.out.println("The int is    " + anInt);
         System.out.println("The byte is   " + aByte);

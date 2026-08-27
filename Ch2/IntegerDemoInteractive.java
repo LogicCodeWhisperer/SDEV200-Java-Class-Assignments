@@ -17,11 +17,11 @@ public class IntegerDemoInteractive
         //Input Statements
         System.out.print("Please enter an integer >> ");
         anInt = input.nextInt();
-        System.out.print("Please enter an integer >> ");
+        System.out.print("Please enter a Byte integer >> ");
         aByte = input.nextByte();
-        System.out.print("Please enter an integer >> ");
+        System.out.print("Please enter a Short integer >> ");
         aShort = input.nextShort();
-        System.out.print("Please enter an integer >> ");
+        System.out.print("Please enter a Long integer >> ");
         aLong = input.nextLong();
 
         //Output Statements
