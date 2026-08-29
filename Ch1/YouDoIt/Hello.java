@@ -1,4 +1,4 @@
-package Ch1;
+package Ch1.YouDoIt;
 public class Hello 
 {
     public static void main(String[] args)
