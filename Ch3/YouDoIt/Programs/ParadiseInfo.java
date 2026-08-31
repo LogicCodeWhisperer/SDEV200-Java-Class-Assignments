@@ -1,4 +1,4 @@
-package Ch3.YouDoIt;
+package Ch3.YouDoIt.Programs;
 // Program: ParadiseInfo.java -> p.89
 // Author: Chase Stephenson
 // Date Written: 8/28/2026

@@ -1,4 +1,4 @@
-package Ch1.YouDoIt;
+package Ch1.YouDoIt.Programs;
 // Program: Hello2.java
 // Author: Chase Stephenson
 // Date Written: 8/24/2026

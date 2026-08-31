@@ -1,4 +1,4 @@
-package Ch3.YouDoIt;
+package Ch3.YouDoIt.Programs;
 
 // Program: TestInfo.java -> p.90
 // Author: Chase Stephenson
