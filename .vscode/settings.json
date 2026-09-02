@@ -3,7 +3,9 @@
     "java.project.sourcePaths":
     [
         "Ch1",
-        "Ch2"
+        "Ch2",
+        "Ch3",
+        "Ch4"
     ]
 }
 */

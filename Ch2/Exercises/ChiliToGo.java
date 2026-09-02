@@ -36,5 +36,6 @@ public class ChiliToGo
         System.out.println("Total cost for adult meals is $" + adultMealTotal);
         System.out.println("Total cost for child meals is $" + childMealTotal);
         System.out.println("Total cost for all meals is $" + total);
+        input.close();
     }
 }

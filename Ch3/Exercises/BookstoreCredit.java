@@ -22,6 +22,7 @@ public class BookstoreCredit
         
         //Call to displayCredit() method
         displayCredit(gpa, name);
+        input.close();
     }   
 
     public static void displayCredit(double gpa, String name)

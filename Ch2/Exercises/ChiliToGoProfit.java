@@ -41,5 +41,6 @@ public class ChiliToGoProfit
         System.out.printf("Total Profit for adult meals is $%.2f\n", adultMealTotalProfit);
         System.out.printf("Total Profit for child meals is $%.2f\n", childMealTotalProfit);
         System.out.printf("Total Profit for all meals is $%.2f\n", totalProfit);
+        input.close();
     }
 }

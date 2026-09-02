@@ -36,5 +36,6 @@ public class IntegerDemoInteractiveWithName
         System.out.println("The byte is   " + aByte);
         System.out.println("The short is  " + aShort);
         System.out.println("The long is   " + aLong);
+        input.close();
     }
 }
