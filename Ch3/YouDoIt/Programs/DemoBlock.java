@@ -1,4 +1,3 @@
-package Ch3.YouDoIt.Programs;
 // Program: DemoBlock.java -> p.103
 // Author: Chase Stephenson
 // Date Written: 8/31/2026

@@ -1,5 +1,3 @@
-package Ch3.YouDoIt.Programs;
-
 // Program: TestInfo.java -> p.90
 // Author: Chase Stephenson
 // Date Written: 8/28/2026

@@ -1,4 +1,3 @@
-package Ch3.Exercises;
 // Program: BookstoreCredit -> p.112
 // Author: Chase Stephenson
 // Date Written: 8/31/2026

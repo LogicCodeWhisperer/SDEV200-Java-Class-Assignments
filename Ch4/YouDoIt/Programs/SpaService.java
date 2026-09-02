@@ -1,4 +1,3 @@
-package Ch4.YouDoIt.Programs;
 // Program: SpaService.java -> p.123-124
 // Author: Chase Stephenson
 // Date Written: 9/2/2026
