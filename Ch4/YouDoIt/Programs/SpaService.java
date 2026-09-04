@@ -8,6 +8,21 @@ public class SpaService
     private String serviceDescription;
     private double price;
 
+    //Parameterless constructor
+    public SpaService()
+    {
+        //Send default values to the two parameter constructor
+        this("XXX", 0);
+    }
+
+    //Contructor with parameters
+    public SpaService(String desc, double pr)
+    {
+        serviceDescription = desc;
+        price = pr;
+    }
+
+    //Method declarations
     public void setServiceDescription(String service)
     {
         serviceDescription = service;
