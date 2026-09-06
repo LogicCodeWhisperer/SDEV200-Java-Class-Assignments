@@ -34,7 +34,7 @@ public class TestSandwich
         Scanner input = new Scanner(System.in);
 
         //Output statments and user input for bread choice
-        //System.out.println("Enter corresponding number for bread choice:");
+        //"Enter corresponding number for bread choice"
         System.out.print("1. White\n" +
                          "2. Wheat\n" +
                          "3. Italian\n" +
@@ -44,7 +44,7 @@ public class TestSandwich
         System.out.println();                                                //Inserts a blank line for spaceing and easy reading
 
         //Output statments and user input for main ingredieant choice
-        //System.out.println("Enter corresponding number for main ingredient choice:");
+        //"Enter corresponding number for main ingredient choice"
         System.out.print("1. Turkey -- $4\n" +
                          "2. Chicken - $4\n" + 
                          "3. Ham ----- $3\n" +
@@ -52,8 +52,9 @@ public class TestSandwich
                          "Enter corresponding number for main ingredient choice here: ");
         ingredient = input.nextInt();
         System.out.println();                                                //Inserts a blank line for spaceing and easy reading
+        
 
-        //If statements for bread choice (NOTE: choice 4 is irrelivant currently, anything other than 1-3 will choose Rye)
+        //If statements for bread choice (NOTE: anything other than 1-4 will choose "No bread keto diet")
         if (bread == 1)
             {breadType = "White";}
 
@@ -66,11 +67,11 @@ public class TestSandwich
         else if(bread == 4)
             {breadType = "Rye";}
 
-        else
+        else 
             {breadType = "No bread keto diet";
-             breadPrice = 0.00;                  }
+             breadPrice = 0.00;               }
 
-        //If statements for ingredient choice (NOTE: choice 4 is irrelivant currently, anything other than 1-3 will choose Tuna)
+        //If statements for ingredient choice (NOTE: anything other than 1-4 will choose "No main ingredient selected")
         if (ingredient == 1)
             {mainIngredient = "Turkey";
              mainPrice = 4.00;         }
@@ -91,7 +92,7 @@ public class TestSandwich
             {mainIngredient = "No Main Ingredient Selected";
              mainPrice = 0.00;                                 }
 
-        //calculations
+        //Calculations
         price = breadPrice + mainPrice;
         price = Math.round(price * 100.00) / 100.00;
 
