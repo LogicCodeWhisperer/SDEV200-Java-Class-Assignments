@@ -16,7 +16,7 @@ public class AssignVolunteer
         //Gives ability for user input
         Scanner input = new Scanner(System.in);
 
-        //Output for collecting user input
+        //Output statement for collecting user input
         System.out.println("What type of donation is this?");
         System.out.print("Enter " + CLOTHING_CODE + " for clothing, " + 
                          OTHER_CODE + " for anything else... ");
@@ -30,7 +30,7 @@ public class AssignVolunteer
         else
             volunteer = OTHER_PRICER;
 
-        //Output statements for input information
+        //Output statements for displaying 
         System.out.println("You entered " + donationType);
         System.out.println("The volunteer who will price this item is " + volunteer);
         
