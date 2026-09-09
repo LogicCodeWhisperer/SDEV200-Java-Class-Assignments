@@ -90,11 +90,10 @@ public class TestSandwich
         
         else
             {mainIngredient = "No Main Ingredient Selected";
-             mainPrice = 0.00;                                 }
+             mainPrice = 0.00;                              }
 
         //Calculations
         price = breadPrice + mainPrice;
-        price = Math.round(price * 100.00) / 100.00;
 
         //Removes remaining enter key in input buffer after last numeric entry
         input.nextLine();
@@ -102,7 +101,8 @@ public class TestSandwich
         choice.setMainIngredient(mainIngredient);
         choice.setBreadType(breadType);
         choice.setPrice(price);
-
+        
+        input.close();
         return choice;
     }
 }

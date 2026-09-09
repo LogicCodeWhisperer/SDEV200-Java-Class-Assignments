@@ -8,7 +8,7 @@ public class Sandwich
     private String mainIngredient, breadType;
     private double price;
 
-/*  //Constructors
+/*  //Constructors not needed for this specific program
     public Sandwich()
     {
 
