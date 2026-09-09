@@ -13,18 +13,20 @@ public class BookstoreCredit
         Scanner input = new Scanner(System.in);
         
         //Output statments and user input
+        System.out.println();
         System.out.print("What is your Name? ");
         name = input.nextLine();
         System.out.print("What is your GPA? ");
         gpa = input.nextDouble();
         System.out.println();
         
-        //Call to displayCredit() method
+        //Call to displayCredit() method with arguments
         displayCredit(gpa, name);
         input.close();
     }   
-
-    public static void displayCredit(double gpa, String name)
+    
+    //Method to display accepted parameters and calculation for credit
+    public static void displayCredit(double gpa, String name)//These are parameters in the parentheses for argument acceptance
     {
         //Declared variable in displayCredit() method
         double credit;
