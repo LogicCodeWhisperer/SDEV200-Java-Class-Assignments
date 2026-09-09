@@ -23,6 +23,7 @@ public class ParadiseInfo2
         System.out.println("Special this week on any service over " + price);
         System.out.println("Discount of " + discount + " percent");
         System.out.println("That's a savings of at least $" + savings);
+        keyboard.close();
     }
 
     public static void displayInfo()
