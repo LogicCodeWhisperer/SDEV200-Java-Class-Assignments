@@ -25,7 +25,7 @@ public class TestSandwich
         System.out.printf("Price is $%.2f", choice1.getPrice());
     }
 
-    //Method for getInfo()
+    //Method for getInfo() that returns choice
     public static Sandwich getInfo(Sandwich choice)
     {
         //Declared variables
@@ -60,13 +60,13 @@ public class TestSandwich
 
         else if (bread == 2)
             {breadType = "Wheat";}
-
+        
         else if(bread == 3)
             {breadType = "Italian";}
-
+        
         else if(bread == 4)
             {breadType = "Rye";}
-
+        
         else 
             {breadType = "No bread keto diet";
              breadPrice = 0.00;               }
@@ -75,33 +75,31 @@ public class TestSandwich
         if (ingredient == 1)
             {mainIngredient = "Turkey";
              mainPrice = 4.00;         }
-
-        else if (ingredient == 2)
+        
+         else if (ingredient == 2)
             {mainIngredient = "Chicken";
              mainPrice = 4.00;          }
-
-        else if(ingredient == 3)
+        
+         else if(ingredient == 3)
             {mainIngredient = "Ham";
              mainPrice = 3.00;      }
-
-        else if(ingredient == 4)
+        
+         else if(ingredient == 4)
             {mainIngredient = "Tuna";
              mainPrice = 2.00;       }
         
-        else
+         else
             {mainIngredient = "No Main Ingredient Selected";
              mainPrice = 0.00;                              }
 
         //Calculations
         price = breadPrice + mainPrice;
 
-        //Removes remaining enter key in input buffer after last numeric entry
-        input.nextLine();
-
+        //Sets the data fields to the choice object
         choice.setMainIngredient(mainIngredient);
         choice.setBreadType(breadType);
         choice.setPrice(price);
-        
+
         input.close();
         return choice;
     }
