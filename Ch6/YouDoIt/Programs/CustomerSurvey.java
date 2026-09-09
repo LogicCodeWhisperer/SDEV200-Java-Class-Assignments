@@ -16,8 +16,8 @@ public class CustomerSurvey
         /*Condenced output compared to book*/
         System.out.print("Please enter a value that represents\n" + 
                          "your satisfaction with our service.\n" + 
-                         "Enter a value between " + MIN + " and " + MAX + "\n" +
-                         "with " + MAX + " meaning highly satisfied and" + "\n" +
+                         "Enter a value between " + MIN + " and " + MAX + 
+                         "\nwith " + MAX + " meaning highly satisfied and\n" + 
                          MIN + " meaning not at all satisfied.\n" +
                          "Enter your rating >> ");
         
@@ -28,8 +28,8 @@ public class CustomerSurvey
         while(rating < MIN || rating > MAX)
         {
             //Output statments that appear when an invalid entry has been made
-            System.out.print("You must enter a value between " + MIN + " and " + MAX + "\n" +
-                             "Please try again >> ");
+            System.out.print("You must enter a value between " + MIN + " and " + MAX + 
+                             "\nPlease try again >> ");
 
             //User input inside the loop if the first entry was invalid 
             rating = input.nextInt();
