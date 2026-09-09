@@ -31,7 +31,7 @@ public class CreateSpaServices
                            " $" + thirdService.getPrice()); 
     }
 
-    //Method for getData()
+    //Method for getData() with a single parameter
     public static SpaService getData(SpaService service)
     {
         //Declared variables
