@@ -53,7 +53,7 @@ public class CreateSpaServices
         service.setPrice(price);
 
         //Closes input from user
-        //keyboard.close();  -> If not commented out, java gives error at second service input
+        keyboard.close();
         return service;
     }
 }

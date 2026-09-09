@@ -7,14 +7,14 @@ public class TestSandwich
 {
     public static void main(String[] args)
     {
-        //Declared reference for objects
+        //Declared object reference variable and istantiate object
         Sandwich choice1 = new Sandwich();
 
         //Opening message
         System.out.println("All bread selections have a fixed price of $2");
         System.out.println("All main ingredient prices are listed during selection\n");
 
-        //Call to method getInfo
+        //Call to method getInfo for argument choice1
         choice1 = getInfo(choice1);
 
         
