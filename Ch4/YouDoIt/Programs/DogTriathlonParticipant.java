@@ -13,7 +13,6 @@ public class DogTriathlonParticipant
     //However, field is static because at any moment, it is the same for all participants
     private static int totalCumulativeScore = 0;  //Without static, total score is the same as 
                                                   //cumulative score for each participant display
-    
     private String name;
     private int obedienceScore;
     private int conformationScore;
@@ -26,7 +25,7 @@ public class DogTriathlonParticipant
                                    int score2, int score3)
     {
         //Parameter Assignments
-        this.name = name;
+        this.name = name;           //this. is needed because this.name references the local variable while name(orange) references the parameter
         NUM_EVENTS = numEvents;
         obedienceScore = score1;
         conformationScore = score2;

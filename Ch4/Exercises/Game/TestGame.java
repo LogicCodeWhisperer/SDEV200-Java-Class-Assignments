@@ -37,18 +37,17 @@ public class TestGame
                 
                 if (choice == 'y' || choice =='Y')
                 {
-                   System.out.printf("\n" +
-                                     "School Name: " + gameTeam1.getSchool() + "\n" +  
-                                     "Sport: " + gameTeam1.getSportName() + "\n" +
-                                     "Team Name: " + gameTeam1.getGameTime() + "\n" +
-                                     "\n" +
-                                     "or\n" + 
-                                     "\n" +
-                                     "School Name: " + gameTeam2.getSchool() + "\n" +  
-                                     "Sport: " + gameTeam2.getSportName() + "\n" +
-                                     "Team Name: " + gameTeam2.getGameTime() + "\n" + "\n");
+                    System.out.print("\nWhich team?");
+                    System.out.printf("\n" +
+                                      "School Name: " + gameTeam1.getSchool() + "\n" +  
+                                      "Sport: " + gameTeam1.getSportName() + "\n" +
+                                      "Team Name: " + gameTeam1.getGameTime() + "\n" +
+                                      "\n" +
+                                      "School Name: " + gameTeam2.getSchool() + "\n" +  
+                                      "Sport: " + gameTeam2.getSportName() + "\n" +
+                                      "Team Name: " + gameTeam2.getGameTime() + "\n" + "\n");
 
-                    System.out.print("Which team? Enter school name: ");
+                    System.out.print("Enter school name: ");
                     retrySchool = input.nextLine(); 
                     
                     //If statement to check which team 
@@ -93,7 +92,7 @@ public class TestGame
     public static Game gameRetry(Game details)
     {
         //Declarations
-        String school, sportName, gameTime;
+        String sportName, gameTime;
         Scanner input = new Scanner(System.in);                         //To read user input
 
         System.out.print("Reenter sport name: ");                       //Promts user to input new sport name
