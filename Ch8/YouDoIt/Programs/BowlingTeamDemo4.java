@@ -3,7 +3,7 @@
 // Date Written: 9/13/2026
 
 import java.util.*;
-public class BolingTeamDemo4 
+public class BowlingTeamDemo4 
 {
     public static void main(String[] args)
     {
@@ -22,7 +22,7 @@ public class BolingTeamDemo4
             System.out.println("\nMembers of team " + teams[y].getTeamName()); //Output displays members of bowlTeam teamName
             for(i = 0; i < NUM_TEAM_MEMBERS; ++i)                              //Loop to print all team member names
             System.out.print(teams[y].getMember(i) + " " );                    //Gets team member accociated with index and displays their name
-            System.out.println();                                              //Adds empty line for spacing
+            System.out.println();                                              //Moves curser to next line
         }
 
         System.out.print("\n\nEnter a team name to see its roster: ");     //Prompts user to enter team name
@@ -32,7 +32,7 @@ public class BolingTeamDemo4
             if(name.equals(teams[y].getTeamName()))                   //If the name is found
                 for(i = 0; i < NUM_TEAM_MEMBERS; ++i)                 //Loop to get and print member names
                     System.out.print(teams[y].getMember(i) + " " );   //Gets team member accociated with index and displays their name
-            System.out.println();                                     //Adds empty line for spacing
+            System.out.println();                                     //Moves curser to next line
 
         input.close();
     }
