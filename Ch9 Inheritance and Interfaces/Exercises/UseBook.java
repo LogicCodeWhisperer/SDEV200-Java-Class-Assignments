@@ -13,7 +13,7 @@ public class UseBook
         title = JOptionPane.showInputDialog(null, "Enter a NonFiction book title");
         NonFiction nStory = new NonFiction(title);
 
-        //Statement desplays the contents of the two objects
+        //Statement displays the contents of the two objects
         JOptionPane.showMessageDialog(null, "\nBook descriptions:\n" +
                             fStory.toString() + "\n" + nStory.toString());
     }
