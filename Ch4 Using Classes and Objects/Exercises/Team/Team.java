@@ -18,7 +18,7 @@ public class Team
 
     public Team()
     {
-        //Default parameters for testing
+        //Default for testing
         this("Clover Valley", "Base Ball", "Emerald");
     }
 
