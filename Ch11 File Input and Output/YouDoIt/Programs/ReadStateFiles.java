@@ -14,7 +14,7 @@ public class ReadStateFiles
     public static void main(String[] args)
     {
         Scanner kb = new Scanner(System.in);                  //Scanner to accept user input
-        String fileName;                                      //String to hole user input
+        String fileName;                                      //String to hold user input
         System.out.print("Enter name of file to use: ");
         fileName = kb.nextLine();                             //Accepts and assigns input to fileName
         fileName = "CreateFilesBasedOnState\\" + fileName;    //File path from project directory (Add ".txt" to eleminate need for user to enter it)

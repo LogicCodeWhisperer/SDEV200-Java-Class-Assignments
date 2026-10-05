@@ -104,6 +104,7 @@ public class CreateFilesBasedOnState
         {
             System.out.println("Error message: " + e);
         }
+        input.close();
     }
 
     //Method creates empty files using default record format string s. 
