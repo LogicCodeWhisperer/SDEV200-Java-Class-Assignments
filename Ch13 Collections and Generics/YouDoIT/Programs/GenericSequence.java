@@ -7,7 +7,7 @@ public class GenericSequence
     public static void main(String[] args)
     {
         Character grade = 'A';
-        Integer score =0;
+        Integer score = 0;
         Double pay = 21.34;
         String word = "Hello";
         
